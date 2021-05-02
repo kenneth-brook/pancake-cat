@@ -11,6 +11,48 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		opacity: 0.25;
+
+		.contentWrap {
+			width: 85%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+
+			.broodin {
+				width: 45%;
+				height: 750px;
+				background-image: url(../img/broodin.png);
+				background-position: center;
+				background-repeat: no-repeat;
+				opacity: 1;
+				background-size: cover;
+			}
+
+			.welcomeText {
+				width: 45%;
+				height: 750px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h1 {
+					color: white;
+					font-size: 3rem;
+				}
+
+				h2 {
+					color: white;
+					font-size: 2.5rem;
+					margin-top: 30px;
+				}
+
+				h3 {
+					color: white;
+					font-size: 2rem;
+					margin-top: 30px;
+				}
+			}
+		}
 	}
 }
