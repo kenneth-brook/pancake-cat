@@ -34,7 +34,7 @@ function Home() {
 						alliance tools such as an ESI check program and SOV and structure
 						management tools at the CCP level. This method is designed to enable
 						smaller, newer groups who would otherwise lack the tools needed to
-						administrate a community in EvE effectively.{" "}
+						administrate a community in EvE effectively.
 					</p>
 				</li>
 				<li>
