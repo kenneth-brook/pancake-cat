@@ -1,11 +1,14 @@
 .homeWrap {
-	text-align: center;
 	margin: 0 auto;
 	width: 75%;
 	margin-bottom: 50px;
 
-	h1 {
-		font-size: 3.8rem;
+	.titleWrap {
+		text-align: center;
+
+		h1 {
+			font-size: 3.8rem;
+		}
 	}
 
 	p {
