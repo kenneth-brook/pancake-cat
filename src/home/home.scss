@@ -1,18 +1,13 @@
-.homeWrap {
+.twoColWrap {
+	width: 80%;
 	margin: 0 auto;
-	width: 75%;
-	margin-bottom: 50px;
+	display: flex;
 
-	.titleWrap {
-		text-align: center;
-
-		h1 {
-			font-size: 3.8rem;
-		}
+	.colLeft {
+		width: 50%;
 	}
 
-	p {
-		font-size: 2.2rem;
-		margin-top: 30px;
+	.colRight {
+		width: 50%;
 	}
 }
