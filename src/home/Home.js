@@ -1,5 +1,6 @@
 import React from "react";
 import Csm from "../csm/Csm";
+import Csm2 from "../csm2/Csm2";
 
 function Home() {
 	return (
@@ -7,7 +8,9 @@ function Home() {
 			<div className='colLeft'>
 				<Csm />
 			</div>
-			<div className='colRight'></div>
+			<div className='colRight'>
+				<Csm2 />
+			</div>
 		</div>
 	);
 }

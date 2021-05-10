@@ -1,0 +1,17 @@
+.csm2Wrap {
+	width: 97%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+	.infoHead {
+		width: 100%;
+		text-align: center;
+
+		h3 {
+			font-size: 3.8rem;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+}
